@@ -1,8 +1,8 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: y
+host: n/a
 
 # Header-related options
-show_govuk_logo: true
+show_govuk_logo: false
 service_name: My First Service
 service_link: https://www.larry-the-cat.service.gov.uk
 phase: Beta
@@ -15,7 +15,7 @@ header_links:
   Support: https://www.larry-the-cat.service.gov.uk/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: false
+enable_search: true
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
 ga_tracking_id:
@@ -24,7 +24,7 @@ ga_tracking_id:
 multipage_nav: false
 
 # Enable collapsible navigation in the sidebar
-collapsible_nav: false
+collapsible_nav: true
 
 # Table of contents depth – how many levels to include in the table of contents.
 # If your ToC is too long, reduce this number and we'll only show higher-level
