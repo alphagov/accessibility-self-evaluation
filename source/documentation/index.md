@@ -2,7 +2,7 @@
 
 The first step towards meeting [the new accessibility requirements](/link-to-SRO-guide) involves evaluating how accessible your website is.
 
-This means checking whether or not it meets the [international WCAG 2.1 AA standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
+This means checking whether or not it meets the [international WCAG 2.1 AA standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag). 
 
 Checking this in detail requires a large amount of technical expertise and is best left to either:
 
