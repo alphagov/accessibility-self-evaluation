@@ -269,7 +269,7 @@ If you’ve only come to this guide to check the accessibility of your PDFs and 
 
 You’ll need to do check that users don’t have trouble interacting with your website. This means checking for technological or frontend issues.
 
-### 5.1 Tests using a mobile or tablet device
+### Tests using a mobile or tablet device
 
 You’ll need to do some checks using a mobile or tablet device to check that your website is usable on these types of device.
 
@@ -295,7 +295,7 @@ This won’t apply to most websites, but if it applies to yours then you need to
 
 Check that none of your sample pages require any of these types of interactions - and if they do, that there’s another way of completing the task.
 
-### 5.2 Navigating just using a keyboard
+### Navigating just using a keyboard
 
 Some of your users won’t be using a mouse and will need to navigate just using a keyboard. You’ll need to do some checks to see how easy it is for them to do that.
 
@@ -350,7 +350,7 @@ Some websites give users the chance to skip these header blocks. For instance, i
 
 See if the same thing happens when you hit ‘Tab’ after refreshing a page on your website.
 
-### 5.3 Checking content is usable when zoomed in or magnified
+### Checking content is usable when zoomed in or magnified
 
 Some users with visual impairments use screen magnification tools that zoom into the page content, or increase the size of the text. You’ll need to check your content is usable for people using these tools.
 
@@ -370,7 +370,7 @@ Use the same sample of pages you used when tweaking the size of the text. For ea
 
 If your website is handling this in an accessible way, then you shouldn’t need to use horizontal scroll: the content should reformat in a way that means you only need to use vertical scrolling.
 
-### 5.4 Colour contrast
+### Colour contrast
 
 Some users with visual impairments won’t be able to interact with your website if the colour contrast isn’t set properly.
 
@@ -390,7 +390,7 @@ Like you did for the text on your website, you’ll need to check that the colou
 
 The contrast ratio needs to be at least 3:1 in these cases. Again, use the WAVE tool to check this.
 
-### 5.5 Pop-ups and interactive or flashing content
+### Pop-ups and interactive or flashing content
 
 Pop-ups or flashing images can be very distracting. Users need to be able to disable or dismiss these elements easily.
 
