@@ -1,6 +1,6 @@
 # Doing a basic accessibility check if you can’t do a detailed one
 
-The first step towards meeting [the new accessibility requirements](/link-to-SRO-guide) involves evaluating how accessible your website is.
+The first step towards meeting [the new accessibility requirements](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) involves evaluating how accessible your website is.
 
 This means checking whether or not it meets the [international WCAG 2.1 AA standard](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
 
@@ -15,7 +15,7 @@ If this applies to your organisation, you’ll have to do a basic check instead.
 
 The checks outlined in this guidance can be done by anyone with a basic knowledge of websites - any web officers in your organisation or volunteers, for example.
 
-> Before you start, [check whether it’s reasonable for you to do a detailed accessibility check instead](/SRO-guide#exemptions). If it is, then just doing a basic check won’t be enough for you to meet the requirements.
+> Before you start, [check whether it’s reasonable for you to do a detailed accessibility check instead](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#decide-how-to-check-your-website-or-app-for-accessibility-problems). If it is, then just doing a basic check won’t be enough for you to meet the requirements.
 
 ## Preparing to do a basic accessibility check
 
@@ -107,7 +107,7 @@ You can check your links by looking at your sample pages and just reading the li
 
 If you’re using link text like ‘click here’ or ‘more information’ then you’re probably not meeting this requirement - link text like that doesn’t describe where the link will go or what it’s for.
 
-There’s [guidance explaining what good link text looks like](https://docs.google.com/spreadsheets/d/1moiL5s2M-Tcr2JdR7n7jwIkuq7aefUS3Cw3fYuBp7Ds/edit?ts=5c862db6#gid=0) if you’re not sure.
+There’s [guidance explaining what good link text looks like](https://www.gov.uk/guidance/content-design/links#writing-link-text) if you’re not sure.
 
 ### Check that pages have good titles
 
@@ -449,4 +449,4 @@ If they’re triggered on the down event, you’re not meeting the accessibility
 
 ## Once you’ve finished the checks
 
-Once you’ve finished these checks, you can start [making a plan to fix any accessibility problems you found](/link-to-web-teams-guide).
+Once you’ve finished these checks, you must start [making a plan to fix any accessibility problems you found](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#make-a-plan-to-fix-any-accessibility-problems-you-find).
