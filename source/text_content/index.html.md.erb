@@ -5,44 +5,30 @@ weight: 30
 
 # 1. Text content
 
-You’ll need to start by checking the text-based content pages (and any PDFs or other documents) you included in your sample.
+You’ll need to start by checking the text-based content pages you included in your sample.
 
-## Check content is marked up properly
+## Check you're using proper headings
 
-It’s important that your content is marked up correctly. This is because some users with visual impairments use tools called ‘screen readers’ that read out page content to them.
+It’s important that any headings you’re using are styled properly. This is because some users with visual impairments use tools called ‘screen readers’ that read out page content to them.
 
-Things like lists and headings need to be marked up in a way that allows screen readers to tell what they are and how your content is structured.
+Screen reader users often scan through the list of headings in a document so they can skip to the content they’re looking for.  
 
-You’ll be able to check some of these things in your content management system. For instance, you can check to see whether any headings are marked up with ```<h2>``` or ```<h3>``` tags, or ```##``` and ```###``` if you’re using markdown. Headings shouldn’t just be marked up in bold.
+If you’re styling headings just by using bold, or by using bigger font, then screen readers won’t recognise them as headings and users won’t be able to skip to the content they need. 
 
-You might need to look at the page HTML to check things like tables or bullet lists. How you do this depends on which browser you’re using. If you’re using:
+To check your headings are styled propely, open up the tool you use to edit your website (often known as a ‘content management system’) and check the headings on your sample pages. They’re style correctly if something like one of the following applies:
 
-+ Google Chrome, right-click a table or bullet list and select ‘inspect’
-+ Safari, right-click a table or bullet list and select ‘inspect element’ - you might need to [enable Safari developer tools](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/EnableWebInspector/EnableWebInspector.html) first
-+ Edge, click ‘F12’ to open the developer tab and then hold ‘Ctrl’ and ‘B’ - once you’ve done that, left-click on a table or bullet list to inspect the HTML
-+ Firefox, right-click a table or bullet list and select ‘inspect element’ - you might need to [enable Firefox web developer](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector) first
-
-Once that’s done, look out for the following sorts of tags:
-
-+ for tables, look out for ```<td>```, ```<th>``` and ```<tr>```
-+ for bullet lists, look out for ```<ul>``` and ```<li>```
-
-If you can see these tags, it’s likely your content is marked up properly.
-
-To check PDFs or other documents, open them in the tool used to create them and check that:
-
-+ headings are marked up properly, using the proper document structure settings like the [styles gallery in Microsoft Word](https://support.office.com/en-ie/article/add-a-heading-3eb8b917-56dc-4a17-891a-a026b2c790f2)
-+ tables and bullet points are properly styled - for instance, you’re not just using hyphens for bullet lists
++ your headings are styled as things like ‘Heading level 2’, rather than ‘Normal text’
++ you can see tags like ``##``, ``###``, ``<H2>`` or ``<H3>``
 
 ## Check pages are usable when stylesheets are disabled
 
-A stylesheet defines the visual layout of a web page. Your content still needs to be usable even if stylesheets are disabled.
+The way a page looks is controlled by something called a ‘stylesheet’. It defines things like the way a page is laid out and any font colours. 
 
-You can test this by copying a URL from your website and pasting it into the [WAVE tool](http://wave.webaim.org/). Once you’ve done that, select ‘no styles’ from the panel on the left-hand side of the tool. This should give you a much more basic view of the page.
+Your content still needs to be usable even if stylesheets are disabled. This means it’s still possible to complete any relevant tasks or find important information - for example, look for opening hours or contact details, or navigate your way to a form you need to fill out.
 
-Repeat this process with all your sample content pages and check whether they’re still usable. This means it’s still possible to complete any relevant tasks or find important information - for example, look for opening hours or contact details, or navigate your way to a form you need to fill out.
+You’ll need to check this applies to your sample pages. Test this by copying a URL from your website and pasting it into the [WAVE tool](http://wave.webaim.org/). Once you’ve done that, select ‘no styles’ from the panel on the left-hand side of the tool. This should give you a much more basic view of the page.
 
-You won’t be able to do this test on PDFs or other document types.
+If you can still complete any relevant tasks then it’s likely you’re meeting this requirement.
 
 ## Check that instructions are styled properly
 
@@ -85,15 +71,3 @@ For example, ‘Apply for a blue badge’ is a much more descriptive title than 
 Also check that none of the titles are duplicated: if two pages have the same title, how is the user supposed to know which one to use?
 
 There’s [guidance on writing good page titles](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) if you need help.
-
-## Check the language the content is written in
-
-A screen reader needs to know what language a page is written in so it uses the correct speech libraries for accent and pronunciation. It only knows this if the language is specified in the page HTML.
-
-You’ll need to check the HTML of your sample content pages to see whether your website does this. To inspect the page HTML, use the same method you used when checking whether your content was marked up appropriately.
-
-Once you’ve opened the HTML, scroll to the top of the panel. You should see a ```<!doctype html>``` tag. Directly under that you should see an ‘<html lang=”’ tag. This is where the screen reader finds out the page language.
-
-If the page is written in English, the tag should read ```<html lang=“en”``` or ```<html lang=en-gb```. If it’s empty, the screen reader won’t be able to tell what language the page is in.
-
-If any of your sample pages contain content written in other languages, you’ll need to check that’s marked up properly too, using the [country code for the relevant language](https://www.sitepoint.com/iso-2-letter-language-codes/).
