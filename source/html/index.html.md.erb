@@ -1,0 +1,56 @@
+---
+title: HTML checks
+weight: 80
+---
+
+# 6. HTML checks
+
+There are a few checks that you won’t be able to do without looking at your website’s HTML (the language that website pages are written in). This is slightly more difficult than the other checks outlined in this guidance, but isn’t as intimidating as it sounds. 
+
+The instructions below tell you how to navigate to the HTML you need to check, and the subsections explain what you’ll need to look out for when checking each of the page elements you need to check. 
+
+This means you don’t really need to understand the things you’re looking at, what HTML is or what it does. 
+
+The way you view your page’s HTML depends on which browser you’re using. If you’re using:
+
++ Google Chrome, right-click the page element you want to check and select ‘inspect’
++ Safari, right-click the page element you want to check and select ‘inspect element’ - you might need to [enable Safari developer tools](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/EnableWebInspector/EnableWebInspector.html) first
++ Edge, press ‘F12’, then hold ‘Ctrl’ and ‘B’ - once you’ve done that, left-click the page element you want to check
++ Firefox, right-click the element you want to check and select ‘inspect element’ - you might need to [enable Firefox web developer](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Open_the_Inspector) first
+
+This should open up a panel somewhere on your screen showing the HTML for the page. 
+
+## Checking tables and bullet lists are styled properly
+
+Start by checking that any tables and bullet lists have been styled properly. If they aren’t styled properly, screen reader software won’t recognise what they are and won’t give users the information they convey in a way that makes sense.
+
+Follow the instructions above and check a few tables and bullet lists from your sample pages. Once you’ve opened up the source code, look out for the following sorts of tags:
+
++ for tables, look out for ``<td>``, ``<th>`` and ``<tr>``
++ for bullet lists, look out for ``<ul>`` and ``<li>``
+
+If you can see these tags, it’s likely the elements have been styled properly. 
+
+## Check the language the content is written in
+
+A screen reader needs to know what language a page is written in so it uses the correct speech libraries for accent and pronunciation. It only knows this if the language is specified in the page HTML.
+
+You’ll need to check the HTML of your sample content pages to see whether your website does this. To inspect the page HTML, use the same method you used when checking whether your content was marked up appropriately.
+
+Once you’ve opened the HTML, scroll to the top of the panel. You should see a ``<!doctype html>`` tag. Directly under that you should see an ``<html lang=”`` tag. This is where the screen reader finds out the page language.
+
+If the page is written in English, the tag should read ``<html lang=“en”`` or ``<html lang=en-gb``. If it’s empty, the screen reader won’t be able to tell what language the page is in.
+
+If any of your sample pages contain content written in other languages, you’ll need to check that’s marked up properly too, using the [country code for the relevant language](https://www.sitepoint.com/iso-2-letter-language-codes/).
+
+## Check any video players are accessible
+
+You need to check that any video players are accessible. This means checking that the buttons you need to use to interact with the video player are marked up in a way that a screen reader would recognise.
+
+You’ll need to inspect the page HTML to check whether you’re meeting this requirement. Do this using the same method you used to check whether your text content was marked up properly.
+
+Once you’ve done that, right-click (or left-click if you’re using Edge) one of the video player buttons and select ‘inspect’ or ‘inspect element’, depending on the browser you’re using.
+
+Check whether the button’s been given a name like ‘Play’ or ‘Pause’ - if it has, the name will likely appear as part of a ‘title’ or ‘aria label’ tag.
+
+If there’s no text indicating what the button does then it probably hasn’t been marked up properly. This means a screen reader won’t know what the button’s for and that users need to be able to see and understand the button icon to work it out for themselves.
